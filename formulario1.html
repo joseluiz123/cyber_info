@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Cyber Info</title>
+  <link rel="stylesheet"
+	href="css/estilo.css"
+	type="text/css">
+	
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ 
+ 
+</head>
+<body>
+
+<div class="container">
+    
+<div id="header">
+  <header>
+  <img src="img/info2.jpg" class="img img-responsive">
+  
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+	  <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="noticias.html" >Vídeos</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ 
+  </header>
+  
+<div class="row">
+    <div class="col-sm-12 col-md-12">
+
+<div class="formulario">
+	  <h3>Envie uma mensagem para nós, com dúvidas <br>
+                    sugestões, elogios, etc...</h3><br>
+
+                  <form action="#" method="POST">
+                    
+                      <div class="form-group row">
+                        <div class="col-xs-8 col-md-8">
+                            <label for="formNome"><b>*Nome</b></label>
+                            <input type="text" name="nomeremetente" required class="form-control" placeholder="Nome" size="20">
+                        </div>
+                      </div>
+
+                      <div class="form-group row">
+                        <div class="col-xs-8 col-md-8">
+                            <label for="formEmail"><b>*E-Mail</b></label>
+                            <input type="text" name="emailremetente" required class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" class="form                                    form-control" placeholder="Email"/>
+                        </div>
+                      </div>
+
+                      <div class="form-group row">
+                        <div class="col-xs-8 col-md-8">
+                            <label for="formTelefone"><b>Telefone</b></label>
+                            <input type="text" name="telefone" onkeypress="onlyNumber(event);" class="form form-control" placeholder="Telefone (somente números)"/>
+                        </div>
+                      </div>
+
+                      <div class="form-group row"> 
+                        <div class="col-xs-8 col-md-8">
+                            <label for="formAssunto"><b>*Assunto</b></label>
+                            <input type="text" name="assunto" required class="form form-control" placeholder="Assunto"/>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="formMensagem"><b>*Mensagem</b></label>
+                        <textarea name="mensagem" cols="35" rows="7" required class="form form-control"></textarea>
+                      </div>
+
+                      <input name="enviar" type="reset" value="Limpar" class="btn btn-warning"/>
+                      <input type="submit" name="enviar" value="Enviar" class="btn btn-primary" />                
+                    
+                  </form> 
+	  
+	</section>
+</div>
+<br>
+
+
+</div>
+</div>
+<footer id="footer">
+					
+					<br>
+						&copy; desenvolvido por José Luiz
+					
+				</footer>
+
+	</div>
+
+</div>
+
+</body>
+</html>
