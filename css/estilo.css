@@ -1,4 +1,8 @@
-﻿#header{
+.center{
+    text-align: center;
+}
+
+#header{
 	border-radius: 1px;
     background: #8AC007;
     width: 100%;
