@@ -55,7 +55,7 @@ function contraste(c){
     $(".noticia")        
         .css("color", "white")
 
-    $(".box_noticia")
+    $(".jumbotron")
         .css("background-color", "#1C1C1C")
         .css("color", "white");
     
@@ -88,7 +88,7 @@ function contraste(c){
     $(".noticia")        
         .css("color", "black")
     
-    $(".box_noticia")        
+    $(".jumbotron")        
         .css("color", "white")
         .css("background-color", "#e9ecef");
     
