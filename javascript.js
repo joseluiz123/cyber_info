@@ -89,7 +89,7 @@ function contraste(c){
         .css("color", "black")
     
     $(".jumbotron")        
-        .css("color", "white")
+        .css("color", "black")
         .css("background-color", "#e9ecef");
     
     $(".atalhos")        
