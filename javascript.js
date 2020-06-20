@@ -77,13 +77,13 @@ function contraste(c){
 
 
 /* Se o contraste escolhido for o claro */
-      } if (c == 'claro') {
+    } if (c == 'claro') {
 	$("body")
-		.css("background-color", "white")
+	.css("background-color", "white")
         .css("color", "black");
 
     $(".acessibilidade")        
-        .css("color", "black")
+        .css("color", "black");
 
     $(".noticia")        
         .css("color", "black")
